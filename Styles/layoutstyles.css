@@ -1,0 +1,55 @@
+body {
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.common {
+    /* background-color: rgb(222, 211, 211); */
+    border: 2px solid white;
+    position: absolute;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100;
+    z-index: 2;
+    border-bottom: solid 1px #555;
+
+}
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: solid 1px #555;
+}
+.mainbody {
+    top: 116px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+    
+}
+.rightmenu {
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 39;
+    border-left: solid 1px #555;
+    
+}
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    color: #999;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+}
+.subheader {
+    float: right;
+}
